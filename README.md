@@ -11,4 +11,4 @@
 #    5. When one has a trained model, one may test and/or use it by entering the following on the command line: >> python chatbot.py test
 #
 # Note: these files contain specifications of the parameters and paths used in developing this model. They can be changed.
-#   Also, we must give credit where credit is due. The scripts chatbot.py, data_utils.py, and seq2seq_model.py were adapted from tensorflow (link: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/models/rnn/translate) for the present particular purposes.
+#   Also, we must give credit where credit is due. The scripts chatbot.py, data_utils.py, and seq2seq_model.py were adapted from tensorflow (link: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/models/rnn/translate) for the present particular purposes, as can be surmised from the copyright definitions left unaltered in the scripts.
