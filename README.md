@@ -1,6 +1,6 @@
 # This set of files is to create a conversational model using tensorflow.
 # They are to be used in this order:
-#   1. Obtain a dialogue dataset. We used text scraped from IMSDB (much like Film Corpus 2.0)
+#   1. Obtain a dialogue dataset. We used text scraped from IMSDB (much like Film Corpus 2.0).
 #   2. Run extract_text.py on this dataset. This script selectively extracts usable utterances then partitions the extracted text into four files: train.enc, train.dec, test.enc, test.dec (training and testing datasets for the encoder and decoder portions of the seq2seq model used).
 #   3. Run data_utils.py on the four resulting files from step 2. This script extracts the enc_vocab_size and dec_vocab_size most common words in each category of datasets and writes these to a separate files, then assigns token ID's to each word and writes this output to separate files, all of which are correspondingly named). Sample outputs for steps 2 and 3 are provided.
 #   4. Train a model on the data by entering the following on the command line: >> python chatbot.py train
